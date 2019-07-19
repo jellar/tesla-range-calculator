@@ -1,12 +1,12 @@
 import React from "react";
-import "./Header.css";
-import logoUrl from "../../assets/logo.svg";
+import logoUrl from "../assets/logo.svg";
+import StyledHeader from "../styles/StyledHeader";
 
 const Header = () => {
   return (
-    <div className="header">
+    <StyledHeader>
       <img src={logoUrl} alt="Tesla" />
-    </div>
+    </StyledHeader>
   );
 };
 
