@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledTeslaBattery = styled.div`
+const StyledTeslaBattery = styled.form`
   width: 1050px;
   margin: 0 auto;
 

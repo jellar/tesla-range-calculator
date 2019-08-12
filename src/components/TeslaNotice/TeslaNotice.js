@@ -1,8 +1,8 @@
 import React from "react";
-import StyledTeslaNotice from "../styles/StyledTeslaNotice";
+import "./TeslaNotice.css";
 
 const TeslaNotice = () => (
-  <StyledTeslaNotice>
+  <div className="tesla-battery__notice">
     <p>
       The actual amount of range that you experience will vary based on your
       particular use conditions. See how particular use conditions may affect
@@ -13,7 +13,7 @@ const TeslaNotice = () => (
       and condition, driving style and operating, environmental and climate
       conditions.
     </p>
-  </StyledTeslaNotice>
+  </div>
 );
 
 export default TeslaNotice;
