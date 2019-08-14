@@ -48,6 +48,7 @@ function calculateStats(state) {
   const dataModels = getModelData();
   return models.map(model => {
     const { speed, temperature, climate, wheels } = state.config;
+
     const miles =
       dataModels[model][wheels][climate ? "on" : "off"].speed[speed][
         temperature
@@ -121,7 +122,7 @@ function appReducer(state = initialState, action) {
       };
       return updateStats(state, newState);
     }
-    case "CHANGE_WHEEL": {
+    case "WHEEL_CHANGE": {
       const newState = {
         ...state,
         config: {
