@@ -13,7 +13,7 @@ const TeslaStats = props => {
   ));
 
   return (
-    <div className="tesla-stats">
+    <div className="tesla-stats tesla-stats-animation">
       <ul>{listItems}</ul>
     </div>
   );

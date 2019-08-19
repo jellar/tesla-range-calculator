@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header header-animation">
       <img src={logoUrl} alt="Tesla" />
     </div>
   );

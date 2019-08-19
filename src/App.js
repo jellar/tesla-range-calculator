@@ -29,12 +29,12 @@ class App extends Component {
           <Header />
           <div className="wrapper">
             <form className="tesla-battery">
-              <h1>
+              <h1 className="title-animation">
                 <center>Range Per Charge</center>
               </h1>
               <TeslaCarContainer />
               <TeslaStatsContainer />
-              <div className="tesla-controls cf">
+              <div className="tesla-controls cf tesla-controls-animation">
                 <TeslaSpeedCounterContainer />
                 <div className="tesla-climate-container cf">
                   <TeslaTempCounterContainer />

@@ -4,8 +4,10 @@ import "./TeslaCar.css";
 
 const TeslaCar = props => {
   return (
-    <div className="tesla-car">
-      <div className="tesla-wheels">
+    <div className="tesla-car tesla-car-animation">
+      <div
+        className={`tesla-wheels tesla-wheels-animation--${props.wheelsize}`}
+      >
         <div
           className={`tesla-wheel tesla-wheel--front tesla-wheel--${
             props.wheelsize
